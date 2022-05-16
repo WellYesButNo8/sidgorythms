@@ -1,0 +1,19 @@
+body {
+    background-color: rgb(65, 79, 83);
+  }
+  
+  h1 {
+    color: white;
+    text-align: center;
+  }
+
+  p {
+    font-family: verdana;
+    font-size: 20px;
+  }
+
+  #link {
+      text-align: center;
+      transform: rotate(36deg);
+
+  }
