@@ -14,6 +14,7 @@ body {
     font-size: 20px;
     text-align:center;
   }
-  a.center-text {
-    display: block;
+  img{
+      margin:auto;
+      display:block;
   }
