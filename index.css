@@ -14,7 +14,11 @@ body {
     font-size: 20px;
     text-align:center;
   }
-
+.link{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
   .link:hover{
     transform: rotate(36deg)
   }
