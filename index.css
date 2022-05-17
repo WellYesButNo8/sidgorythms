@@ -17,6 +17,8 @@ body {
   }
   img{
       margin:auto;
-      width: 40%;
+      aspect-ratio:initial;
+      width: 128px;
+      height: 128px;
       display: block;
   }
