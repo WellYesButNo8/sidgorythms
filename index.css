@@ -15,8 +15,6 @@ body {
     text-align:center;
   }
 
-  #link {
-      text-align: center;
-      transform: rotate(36deg);
-
+  .link:hover{
+    transform: rotate(36deg)
   }
