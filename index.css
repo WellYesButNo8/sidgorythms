@@ -31,7 +31,9 @@ body {
     transition-duration: 0.5s;
     background-color:papayawhip;
     color: black;
+    font-size: 16px;
     font-family: 'Open Sans', sans-serif;
+    border:none;
   }
 
   button:hover {
