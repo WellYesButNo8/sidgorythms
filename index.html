@@ -4,25 +4,64 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title></title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="index.css">
   </head>
   <body>
   <section class="section">
     <div class="container">
-      <nav class="navbar is-primary"
+      <nav class="navbar is-fixed-top is-primary"
       role="navigation"
       aria-label="main navigation">
-      <div class="navbar-brand">
-        <a item="navbar-item is-uppercase" name="Blah" href="#"></a>
+      <div class="navbar-menu">
+        <a item="navbar-item is-uppercase" name="Hello World!" href="#"></a>
         
-        <a role="navbar-button" class="navbar-about" aria-label="menu" aria-expanded="false">
+        <a role="navbar-button" class="navbar-burger" aria-label="menu" aria-expanded="false">
           <span aria-hidden="true"></span>
           <span aria-hidden="true"></span>
           <span aria-hidden="true"></span>
         </a>
+        <div id="navbarbrand" class="navbar-start">
+          <a class="navbar-item">
+            <strong>Welcome to Sidgorythms</strong>
+          </a>
+        </div>
+        <div id="navbarmenu" class="navbar-end">
+          <div class="navbar-end">
+            <a class="navbar-item">
+              Home
+            </a>
+
+            <a class="navbar-item">
+              About
+            </a>
+          
+            <a class="navbar-item">
+              Projects
+            </a>
+
+            <a class="navbar-item">
+              Contact
+            </a>
+          </div>
+        </div>
 
       </div>
       </nav>
+      <br>
+      <br>
+      <br>
+      <br>
+      <div class="tile is-parent is-5">
+        <article class="tile is-child notification is-link">
+          <div class="content">
+            <p class="title">Welcome to Sidgorythms!</p>
+            <p class="subtitle">I'm Sid.</p>
+            <div class="content">
+              <p>I like coding in <strong>Python</strong> and <strong>Golang</strong>. Outside of coding, I enjoy mechanical keyboards, rowing, soccer and a little bit of Minecraft when I can.</p>
+            </div>
+          </div>
+        </article>
+      </div>
     </div>
   </section>
   </body>
